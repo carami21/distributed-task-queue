@@ -1,6 +1,6 @@
 # Distributed Task Queue System
 
-[![CI](https://github.com/carami21/distrubuted-task-queue/actions/workflows/ci.yml/badge.svg)](https://github.com/carami21/distrubuted-task-queue/actions/workflows/ci.yml)
+[![CI](https://github.com/carami21/distributed-task-queue/actions/workflows/ci.yml/badge.svg)](https://github.com/carami21/distributed-task-queue/actions/workflows/ci.yml)
 
 Distributed async job processing system built as 4 independent microservices, wired together
 with Redis pub/sub for job distribution and PostgreSQL for durable job state. Jobs are submitted
@@ -65,8 +65,8 @@ crashed workers.
 ## Quickstart
 
 ```bash
-git clone https://github.com/carami21/distrubuted-task-queue.git
-cd distrubuted-task-queue
+git clone https://github.com/carami21/distributed-task-queue.git
+cd distributed-task-queue
 docker compose up --build
 ```
 
